@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="85259e5d-626f-4d63-8935-077ae10b55a1" name="Default Changelist" comment="" />
+    <list default="true" id="85259e5d-626f-4d63-8935-077ae10b55a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +40,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ijmVyxXzCnGAU08gzCI0gtJOF8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.67" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nodejs-course-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -57,38 +87,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602429402343</updated>
-      <workItem from="1602429403360" duration="11460000" />
+      <workItem from="1602429403360" duration="12497000" />
+      <workItem from="1602786770743" duration="82000" />
+      <workItem from="1602787208462" duration="1712000" />
+      <workItem from="1602847356621" duration="294000" />
+      <workItem from="1602957668003" duration="1014000" />
+      <workItem from="1603027766224" duration="1760000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="586" y="218" key="#Inspections" timestamp="1602440306030">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="586" y="218" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1602440306030" />
-    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1602431149774">
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1602847651285">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1602431149774" />
-    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1602441083328">
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1602847651285" />
+    <state x="832" y="437" key="Github.ShareDialog" timestamp="1602441683603">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602441083328" />
-    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1602441083328">
+    <state x="832" y="437" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602441683603" />
+    <state x="781" y="244" key="Github.UntrackedFilesDialog" timestamp="1602441702369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602441083328" />
-    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1602441083328">
+    <state x="781" y="244" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602441702369" />
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1602442185405">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602441083328" />
-    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1602441083328">
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602442185405" />
+    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1602442185405">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602441083328" />
+    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602442185405" />
+    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1602442185405">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602442185405" />
+    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1602442185405">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602442185405" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1602433430555">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

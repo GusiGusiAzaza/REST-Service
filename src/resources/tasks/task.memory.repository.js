@@ -1,6 +1,6 @@
 const { NOT_FOUND } = require('http-status');
 const Task = require('./task.model');
-const { ResponseError } = require('../../common/error-handler');
+const { ResponseError } = require('../../components/error-handler');
 
 let tasks = [];
 

@@ -2,7 +2,7 @@ const router = require('express').Router();
 const status = require('http-status');
 const User = require('./user.model');
 const usersService = require('./user.service');
-const middleware = require('../../common/middleware-handler');
+const middleware = require('../../components/middleware-handler');
 
 router.route('/').get(
   middleware(async (req, res, next) => {

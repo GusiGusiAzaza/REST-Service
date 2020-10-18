@@ -1,6 +1,6 @@
 const status = require('http-status');
 const Board = require('./board.model');
-const { ResponseError } = require('../../common/error-handler');
+const { ResponseError } = require('../../components/error-handler');
 
 let boards = [];
 

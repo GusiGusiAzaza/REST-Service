@@ -1,7 +1,7 @@
 const router = require('express').Router({ mergeParams: true });
 const status = require('http-status');
 const tasksService = require('./task.service');
-const middleware = require('../../common/middleware-handler');
+const middleware = require('../../components/middleware-handler');
 
 router.route('/').get(
   middleware(async (req, res, next) => {
