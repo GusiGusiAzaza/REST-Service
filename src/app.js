@@ -31,4 +31,7 @@ app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
 app.use(errorHandler, logger);
 
+//throw Error('Uncaught exception!');
+//Promise.reject(Error('Unhandled rejection!'));
+
 module.exports = app;

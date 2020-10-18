@@ -1,4 +1,6 @@
 const httpStatus = require('http-status');
+const { logUncaughtException, logUnhandledRejection } = require('./logger');
+
 
 class ResponseError extends Error {
   constructor(status, ...rest) {
@@ -17,5 +19,32 @@ const errorHandler = (err, req, res, next) => {
   }
   next();
 };
+
+process.on('uncaughtException', error => {
+  logUncaughtException(
+    {
+      type: 'uncaughtException',
+      msg: error.message,
+      stack: error
+    },
+    error.message
+  );
+});
+
+
+process.on('unhandledRejection', error => {
+  logUnhandledRejection(
+    {
+      message: {
+        type: 'unhandledRejection',
+        msg: error.message,
+        stack: JSON.parse(JSON.stringify(error.stack, Object.getOwnPropertyNames(error.stack)))
+      },
+      level: 'error',
+      timestamp: new Date().toISOString()
+    },
+    error.message
+  );
+});
 
 module.exports = { ResponseError, errorHandler };

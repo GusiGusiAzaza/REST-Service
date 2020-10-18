@@ -1,385 +1,1301 @@
 {
+  error: Error: Oops!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Oops!\n' +
+    'Error: Oops!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Oops!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:08:22 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 15640,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42479616,
+      heapTotal: 20008960,
+      heapUsed: 13958424,
+      external: 1378046,
+      arrayBuffers: 39652
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 14881 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:08:23.003'
+}
+{
   message: {
-    query: {},
-    body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks/294e7825-83fe-4599-a8e6-f36ccb153939',
-    method: 'GET',
-    status: 404
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: Error: Oops!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
   },
   level: 'error',
-  timestamp: '2020-10-18T17:32:17.270Z'
+  timestamp: '2020-10-18 23:08:23.007'
+}
+{
+  error: Error: Uncaught exception!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Uncaught exception!\n' +
+    'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:11:36 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 3284,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42373120,
+      heapTotal: 19746816,
+      heapUsed: 13911504,
+      external: 1378046,
+      arrayBuffers: 39652
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15074 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:11:36.371'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Uncaught exception!',
+    stack: Error: Uncaught exception!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:11:36.376'
+}
+{
+  error: Error: Uncaught exception!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Uncaught exception!\n' +
+    'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:11:57 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 10548,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42741760,
+      heapTotal: 20008960,
+      heapUsed: 13872088,
+      external: 1386238,
+      arrayBuffers: 47844
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15095 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:11:57.294'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Uncaught exception!',
+    stack: Error: Uncaught exception!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:11:57.296'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/3c0c1d35-955c-4544-bd77-ee2d98dd6df3',
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks/742f61d2-6c80-4038-ac8a-f445f29adf5b',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:32:17.270Z'
+  timestamp: '2020-10-18 23:13:54.111'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/f937a8be-fd25-48e1-87b2-a438f20e8311',
+    url: '/boards/cef6907f-9e82-40fc-9fa9-454d74b37c8d',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:32:17.310Z'
+  timestamp: '2020-10-18 23:13:54.115'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/37b89b3f-b84a-4e4c-be3e-93c25db6cee4',
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/3b6e3591-d350-4b8e-a842-a6b84bda9eda',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:32:17.312Z'
+  timestamp: '2020-10-18 23:13:54.134'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/e8096600-9b2e-43a3-8ae6-e6092d212ae7',
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/998a69e6-5a02-4e3c-a1a7-69d4a2244942',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:32:17.313Z'
+  timestamp: '2020-10-18 23:13:54.135'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/aeba5d55-7f5f-4ca7-9734-59af4ec9ecbd',
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/8ab3a696-57ab-4ce9-9b7a-803b7a68b3a2',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:32:17.314Z'
+  timestamp: '2020-10-18 23:13:54.136'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/750c3089-1837-4f71-9949-444cd2134366',
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/da59f288-955c-45a2-acef-a3dbc68dc4d4',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:32:17.314Z'
+  timestamp: '2020-10-18 23:13:54.137'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/35abeef8-2d34-4c17-8074-6ef641ae56da',
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/1d4624c4-ffa2-4bc0-bffb-9acadfe0d3e5',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:39:42.967Z'
+  timestamp: '2020-10-18 23:13:54.138'
+}
+{
+    "message": {
+        "type": "unhandledRejection",
+        "msg": "Error: Unhandled rejection!
+   See \"logs/error.log\" for more details",
+        "stack": "Error: Unhandled rejection!
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:35:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)"
+    },
+    "level": "error",
+    "timestamp": "2020-10-18T20:14:09.358Z"
+}{
+    "message": {
+        "type": "unhandledRejection",
+        "msg": "Unhandled rejection!",
+        "stack": "Error: Unhandled rejection!
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:35:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)"
+    },
+    "level": "error",
+    "timestamp": "2020-10-18T20:14:59.224Z"
+}{
+  error: Error: Uncaught exception!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Uncaught exception!\n' +
+    'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:15:45 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 6908,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42520576,
+      heapTotal: 20008960,
+      heapUsed: 13815824,
+      external: 1386238,
+      arrayBuffers: 47844
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15323 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:15:45.319'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Uncaught exception!',
+    stack: Error: Uncaught exception!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:15:45.320'
+}
+{
+    "message": {
+        "type": "unhandledRejection",
+        "msg": "Unhandled rejection!",
+        "stack": "Error: Unhandled rejection!
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:35:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)"
+    },
+    "level": "error",
+    "timestamp": "2020-10-18T20:18:45.257Z"
+}{
+    "message": {
+        "type": "unhandledRejection",
+        "msg": "Unhandled rejection!",
+        "stack": "Error: Unhandled rejection!
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:35:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)"
+    },
+    "level": "error",
+    "timestamp": "2020-10-18T20:19:59.225Z"
+}{
+    "message": {
+        "type": "unhandledRejection",
+        "msg": "Unhandled rejection!",
+        "stack": "Error: Unhandled rejection!
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:35:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)"
+    },
+    "level": "error",
+    "timestamp": "2020-10-18T20:20:19.971Z"
+}{
+    "message": {
+        "type": "unhandledRejection",
+        "msg": "Unhandled rejection!",
+        "stack": "Error: Unhandled rejection!
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:35:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)"
+    },
+    "level": "error",
+    "timestamp": "2020-10-18T20:20:40.802Z"
+}{
+    "message": {
+        "type": "unhandledRejection",
+        "msg": "Unhandled rejection!",
+        "stack": "Error: Unhandled rejection!
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:35:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)"
+    },
+    "level": "error",
+    "timestamp": "2020-10-18T20:20:49.481Z"
+}{
+    "message": {
+        "type": "unhandledRejection",
+        "msg": "Unhandled rejection!",
+        "stack": "Error: Unhandled rejection!
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:35:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)"
+    },
+    "level": "error",
+    "timestamp": "2020-10-18T20:21:24.435Z"
+}{
+    "message": {
+        "type": "unhandledRejection",
+        "msg": "Unhandled rejection!",
+        "stack": "Error: Unhandled rejection!
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:35:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)"
+    },
+    "level": "error",
+    "timestamp": "2020-10-18T20:21:42.052Z"
+}{
+  error: Error: Uncaught exception!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Uncaught exception!\n' +
+    'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:23:33 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 5864,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42459136,
+      heapTotal: 19746816,
+      heapUsed: 13833720,
+      external: 1386238,
+      arrayBuffers: 47844
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15792 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:23:33.848'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Uncaught exception!',
+    stack: Error: Uncaught exception!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:23:33.850'
+}
+{
+  error: Error: Uncaught exception!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Uncaught exception!\n' +
+    'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:24:45 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 4820,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42639360,
+      heapTotal: 20271104,
+      heapUsed: 13800496,
+      external: 1386238,
+      arrayBuffers: 47844
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15864 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:24:45.663'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Uncaught exception!',
+    stack: Error: Uncaught exception!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:24:45.665'
+}
+{
+    "message": {
+        "type": "unhandledRejection",
+        "msg": "Unhandled rejection!",
+        "stack": "Error: Unhandled rejection!
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:35:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)"
+    },
+    "level": "error",
+    "timestamp": "2020-10-18T20:25:52.868Z"
+}{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks/6502912b-547d-4bce-93c6-74e71362ccb6',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:26:07.141'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks/51564ea5-b046-4f14-8725-af22993ec473',
+    url: '/boards/99cdb40d-a381-4baa-9e22-1d6a490f45c9',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:39:42.968Z'
+  timestamp: '2020-10-18 23:26:07.147'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/06281c98-8270-486a-9099-6aa65c652892',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/0c5e204d-6d48-4e2e-ae11-e2e20591986b',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:39:42.991Z'
+  timestamp: '2020-10-18 23:26:07.171'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/5ba2fbbe-9dba-4be2-95d0-ad81ce853b1d',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/498b76b7-994c-462f-89fe-5d987cc88e27',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:39:42.991Z'
+  timestamp: '2020-10-18 23:26:07.172'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/11f3e0b8-ac78-4c03-a972-9803fc68fb81',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/243e15c0-cd25-4c5d-a808-9e9694a43136',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:39:42.992Z'
+  timestamp: '2020-10-18 23:26:07.172'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/13be7344-a21b-4091-9124-61ef20143563',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/f02e4a5c-13d7-45b7-88ff-5a833a9b8a74',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:39:42.993Z'
+  timestamp: '2020-10-18 23:26:07.173'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/f76e6251-7e00-4cf0-8494-e401b049bec5',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/8a0b268b-5042-46eb-b044-5b9957499bfd',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:39:42.994Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks/fc034f82-a874-4eeb-bdb5-4da27e3b9430',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:42:00.506'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/08db1a7f-603c-4906-9080-08a212f1a634',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:42:00.510'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/54305e43-cfab-4992-ae17-6756b60f1bd0',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:42:00.538'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/79f3d695-2c6e-4967-afe7-89b455c33c85',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:42:00.539'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/9849fda5-699f-44b5-9992-06af4ac52e25',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:42:00.540'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/5e590930-fa31-4b4d-9561-12ce1655a066',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:42:00.540'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/3256c45f-c589-47fe-b827-20a17b986abf',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:42:00.541'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks/a65bd1bf-2ead-4a68-b792-65b8bd2a6cca',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.490'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/5bad964f-f0a0-4412-a729-63a469730cfe',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.492'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/639aed20-a06e-451e-afe0-acfce3f17f4f',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.517'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/5b08ee27-6f7d-49e8-ba99-0d4513238b88',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.518'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/bcf2a014-3cf1-4155-ba69-f7b27158d9f7',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.519'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/8047a36b-8e22-4c47-8da4-f8fbc68347ea',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.520'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/24a05548-fc4a-42d1-917d-1142da48d9e8',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.521'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/87570db5-f0dd-4fc0-bb35-a0811513beeb',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.370'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks/4965db6d-cc62-47d3-abc3-e12f573afebe',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.375'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/1f5805d6-0c0c-4143-9d3a-588958cef659',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.401'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/01306884-afc7-4717-883e-6e8358bc72d1',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.402'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/22653c06-e78d-40e9-9ec1-894d84b95f5f',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.403'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/e23b015f-569b-4442-8586-35481ed5aba7',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.404'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/ec197cfe-e2fb-48ce-a2d8-c6b9cdf7a075',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.411'
+  timestamp: '2020-10-18 23:26:07.175'
 }

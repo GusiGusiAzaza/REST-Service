@@ -1,8 +1,14 @@
+const fs = require('fs');
 const { createLogger, format, transports } = require('winston');
 
 const myFormat = format.combine(format.timestamp({
   format: 'YYYY-MM-DD HH:mm:ss.SSS'
 }), format.prettyPrint());
+
+const errMessage = text => `
+Error: ${text} 
+Check log below or "logs/error.log" for more details
+`;
 
 const options = {
   file: {
@@ -35,16 +41,15 @@ const myLogger = new createLogger({
   transports: [
     new transports.File(options.file),
     new transports.File(options.errorFile),
-    new transports.Console(options.console)
   ],
-  exitOnError: false, // do not exit on handled exceptions
+  exitOnError: false
 });
 
 
 const logger = (req, res) => {
-  const { statusCode: status } = res;
-  const { query, body, originalUrl: url, method, stack } = req;
-  const message = { query, body, url, method, status };
+  const status = res.statusCode;
+  const { query, body, url, method, stack } = req;
+  const message = { query, body, url, method, status } ;
 
   if (status < 400) {
     myLogger.info(message);
@@ -54,6 +59,23 @@ const logger = (req, res) => {
   }
 };
 
+const logUncaughtException = (message, text) => {
+  process.stderr.write(errMessage(text));
+  process.stderr.write(message);
+  myLogger.error(message);
+  myLogger.on('finish', () => process.exit(1));
+};
+
+const logUnhandledRejection = (message, text) => {
+  const msg = JSON.stringify(message, null, 4).replace(/\r?\\n/g, "\r\n");
+  process.stderr.write(errMessage(text));
+  process.stderr.write(msg);
+  fs.writeFileSync(options.errorFile.filename, msg,{ flag: 'a' });
+  process.exit(1);
+};
+
 module.exports = {
-  logger
+  logger,
+  logUncaughtException,
+  logUnhandledRejection
 }

@@ -1,50 +1,518 @@
 {
+  error: Error: Oops!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Oops!\n' +
+    'Error: Oops!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Oops!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:08:22 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 15640,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42479616,
+      heapTotal: 20008960,
+      heapUsed: 13958424,
+      external: 1378046,
+      arrayBuffers: 39652
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 14881 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:08:23.000'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: Error: Oops!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:08:23.007'
+}
+{
+  error: Error: Uncaught exception!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Uncaught exception!\n' +
+    'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:11:36 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 3284,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42373120,
+      heapTotal: 19746816,
+      heapUsed: 13911504,
+      external: 1378046,
+      arrayBuffers: 39652
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15074 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:11:36.367'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Uncaught exception!',
+    stack: Error: Uncaught exception!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:11:36.375'
+}
+{
+  error: Error: Uncaught exception!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Uncaught exception!\n' +
+    'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:11:57 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 10548,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42741760,
+      heapTotal: 20008960,
+      heapUsed: 13872088,
+      external: 1386238,
+      arrayBuffers: 47844
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15095 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:11:57.291'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Uncaught exception!',
+    stack: Error: Uncaught exception!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:11:57.296'
+}
+{
+  message: {
+    query: {},
+    body: {
+      title: 'Autotest board',
+      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
+    },
+    url: '/boards',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.066'
+}
+{
+  message: {
+    query: {},
+    body: {
+      title: 'Autotest board',
+      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
+    },
+    url: '/boards',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.071'
+}
+{
   message: { query: {}, body: {}, url: '/users', method: 'GET', status: 200 },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.202Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.216Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.218Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.219Z'
+  timestamp: '2020-10-18 23:13:54.072'
 }
 {
   message: {
@@ -57,50 +525,28 @@
       boardId: null,
       columnId: null
     },
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks',
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.222Z'
+  timestamp: '2020-10-18 23:13:54.074'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/users/419db756-d4fa-485c-8076-dd323e3db9c7',
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks',
     method: 'GET',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.223Z'
+  timestamp: '2020-10-18 23:13:54.076'
 }
 {
   message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.225Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.226Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/419db756-d4fa-485c-8076-dd323e3db9c7',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.227Z'
+  timestamp: '2020-10-18 23:13:54.077'
 }
 {
   message: {
@@ -115,56 +561,100 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.229Z'
+  timestamp: '2020-10-18 23:13:54.080'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.081'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/users/8ff3976e-76be-46b8-a288-3d66c6ee7809',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.082'
 }
 {
   message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.230Z'
+  timestamp: '2020-10-18 23:13:54.083'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks',
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks/742f61d2-6c80-4038-ac8a-f445f29adf5b',
     method: 'GET',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.231Z'
+  timestamp: '2020-10-18 23:13:54.084'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1',
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159',
     method: 'GET',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.233Z'
+  timestamp: '2020-10-18 23:13:54.087'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks/294e7825-83fe-4599-a8e6-f36ccb153939',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.234Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/28327807-3991-4c1b-a3ff-69539c1b8294',
+    url: '/users/8ff3976e-76be-46b8-a288-3d66c6ee7809',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.235Z'
+  timestamp: '2020-10-18 23:13:54.087'
+}
+{
+  message: {
+    query: {},
+    body: {
+      title: 'Autotest task',
+      order: 0,
+      description: 'Lorem ipsum',
+      userId: null,
+      boardId: null,
+      columnId: null
+    },
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.088'
+}
+{
+  message: {
+    query: {},
+    body: {
+      name: 'TEST_USER',
+      login: 'test_user',
+      password: 'T35t_P@55w0rd'
+    },
+    url: '/users',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.089'
 }
 {
   message: {
@@ -178,7 +668,58 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.236Z'
+  timestamp: '2020-10-18 23:13:54.090'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks/50af346a-da0a-46b3-9db4-6fc71bf7c2cc',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.091'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/users/7a0e9443-7a4b-4b13-a3fc-1da326d3fd24',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.093'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/51543f20-b0f2-4edb-9582-2998994cf95d',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.094'
+}
+{
+  message: {
+    query: {},
+    body: {
+      title: 'Autotest task',
+      order: 0,
+      description: 'Lorem ipsum',
+      userId: null,
+      boardId: null,
+      columnId: null
+    },
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.095'
 }
 {
   message: {
@@ -193,25 +734,40 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.237Z'
+  timestamp: '2020-10-18 23:13:54.096'
 }
 {
   message: {
     query: {},
     body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
+      title: 'Autotest board',
+      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
     },
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks',
+    url: '/boards',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.239Z'
+  timestamp: '2020-10-18 23:13:54.097'
+}
+{
+  message: {
+    query: {},
+    body: {
+      id: '0f004ff9-e5fc-43f0-983f-4eed31fec13e',
+      title: 'Autotest updated task',
+      order: 0,
+      description: 'Lorem ipsum',
+      userId: null,
+      boardId: '4504ed00-35b7-4ae7-9c63-5f1d904b1159',
+      columnId: null
+    },
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks/0f004ff9-e5fc-43f0-983f-4eed31fec13e',
+    method: 'PUT',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.098'
 }
 {
   message: {
@@ -220,146 +776,117 @@
       name: 'Autotest updated TEST_USER',
       login: 'test_user',
       password: 'T35t_P@55w0rd',
-      id: 'bc04b82f-88ce-4ca6-8d96-526f7fa55239'
+      id: 'e671ee2c-d8cd-4d7a-a627-cf6f6e8f0167'
     },
-    url: '/users/bc04b82f-88ce-4ca6-8d96-526f7fa55239',
+    url: '/users/e671ee2c-d8cd-4d7a-a627-cf6f6e8f0167',
     method: 'PUT',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.241Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/f282e232-0151-40f8-847e-007e917adb8c',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.244Z'
+  timestamp: '2020-10-18 23:13:54.099'
 }
 {
   message: {
     query: {},
     body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.246Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/bc04b82f-88ce-4ca6-8d96-526f7fa55239',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.247Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks/e3b1018e-56a0-4a42-9cf5-6ec60a825c21',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.248Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.249Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      id: 'c6658a35-0dee-4262-bab1-054285d23544',
+      id: '55cee9cd-6abb-4aa9-a1ec-47c4082e778f',
       title: 'Autotest updated board',
       columns: [
         {
-          id: 'f98e72a9-4cf8-498a-b6d6-3ebc5b00dcd2',
+          id: '2aa38a25-5f16-4d83-a396-77cdcab30830',
           title: 'Backlog',
           order: 1
         },
         {
-          id: 'edffd733-4b0f-4d91-ad3f-f0a0a1c0169d',
+          id: '70caa224-19cd-4916-89d1-558de5b72801',
           title: 'Sprint',
           order: 2
         }
       ]
     },
-    url: '/boards/c6658a35-0dee-4262-bab1-054285d23544',
+    url: '/boards/55cee9cd-6abb-4aa9-a1ec-47c4082e778f',
     method: 'PUT',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.250Z'
+  timestamp: '2020-10-18 23:13:54.100'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/users/bc04b82f-88ce-4ca6-8d96-526f7fa55239',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.251Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      id: 'aa9a3ee7-e3ba-4132-8b62-58cb8cb435f0',
-      title: 'Autotest updated task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: 'e2ab3136-d86e-4c4d-b942-13bf936a8fc1',
-      columnId: null
-    },
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks/aa9a3ee7-e3ba-4132-8b62-58cb8cb435f0',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.253Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/c6658a35-0dee-4262-bab1-054285d23544',
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks/0f004ff9-e5fc-43f0-983f-4eed31fec13e',
     method: 'GET',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.254Z'
+  timestamp: '2020-10-18 23:13:54.101'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/users/e671ee2c-d8cd-4d7a-a627-cf6f6e8f0167',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.101'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/55cee9cd-6abb-4aa9-a1ec-47c4082e778f',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.102'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks/742f61d2-6c80-4038-ac8a-f445f29adf5b',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.103'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/users/e671ee2c-d8cd-4d7a-a627-cf6f6e8f0167',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.104'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/55cee9cd-6abb-4aa9-a1ec-47c4082e778f',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.106'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks/742f61d2-6c80-4038-ac8a-f445f29adf5b',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.107'
 }
 {
   message: {
@@ -374,51 +901,7 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.255Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks/aa9a3ee7-e3ba-4132-8b62-58cb8cb435f0',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.256Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/c6658a35-0dee-4262-bab1-054285d23544',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.259Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/26e8fd8d-dab9-405e-a0c6-d028c7def41a',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.260Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks/294e7825-83fe-4599-a8e6-f36ccb153939',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.262Z'
+  timestamp: '2020-10-18 23:13:54.107'
 }
 {
   message: {
@@ -432,7 +915,51 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.263Z'
+  timestamp: '2020-10-18 23:13:54.109'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159/tasks/742f61d2-6c80-4038-ac8a-f445f29adf5b',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:13:54.110'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/users/2083c511-7410-4a6b-8ec3-d7a24bf8b075',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.111'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/cef6907f-9e82-40fc-9fa9-454d74b37c8d',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.113'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4504ed00-35b7-4ae7-9c63-5f1d904b1159',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.113'
 }
 {
   message: {
@@ -447,29 +974,18 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.265Z'
+  timestamp: '2020-10-18 23:13:54.114'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks/294e7825-83fe-4599-a8e6-f36ccb153939',
-    method: 'DELETE',
-    status: 204
+    url: '/boards/cef6907f-9e82-40fc-9fa9-454d74b37c8d',
+    method: 'GET',
+    status: 404
   },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.266Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/3c0c1d35-955c-4544-bd77-ee2d98dd6df3',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.267Z'
+  level: 'error',
+  timestamp: '2020-10-18 23:13:54.115'
 }
 {
   message: {
@@ -483,74 +999,7 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.268Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks/294e7825-83fe-4599-a8e6-f36ccb153939',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:32:17.270Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/3c0c1d35-955c-4544-bd77-ee2d98dd6df3',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:32:17.270Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #1',
-      order: 1,
-      description: 'Lorem ipsum',
-      userId: '0e1d4c90-1c07-4612-9f93-97e8359f07ae',
-      boardId: '449f7e1b-3b85-47b5-9752-564b6e4fff6e'
-    },
-    url: '/boards/449f7e1b-3b85-47b5-9752-564b6e4fff6e/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.273Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #2',
-      order: 2,
-      description: 'Lorem ipsum',
-      userId: '0e1d4c90-1c07-4612-9f93-97e8359f07ae',
-      boardId: '449f7e1b-3b85-47b5-9752-564b6e4fff6e'
-    },
-    url: '/boards/449f7e1b-3b85-47b5-9752-564b6e4fff6e/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.278Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.280Z'
+  timestamp: '2020-10-18 23:13:54.116'
 }
 {
   message: {
@@ -564,18 +1013,7 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.282Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/0e1d4c90-1c07-4612-9f93-97e8359f07ae',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.285Z'
+  timestamp: '2020-10-18 23:13:54.117'
 }
 {
   message: {
@@ -584,16 +1022,15 @@
       title: 'Task #1',
       order: 1,
       description: 'Lorem ipsum',
-      boardId: 'bbe50e6c-d463-4178-9121-b12a10819fd5',
-      userId: null,
-      columnId: null
+      userId: '78339fba-ccd2-4d8e-8cfc-017749c836fc',
+      boardId: '38e3a4a6-366f-494d-92d6-a78d78ee363a'
     },
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks',
+    url: '/boards/38e3a4a6-366f-494d-92d6-a78d78ee363a/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.286Z'
+  timestamp: '2020-10-18 23:13:54.118'
 }
 {
   message: {
@@ -602,34 +1039,51 @@
       title: 'Task #2',
       order: 2,
       description: 'Lorem ipsum',
-      boardId: 'bbe50e6c-d463-4178-9121-b12a10819fd5',
-      userId: null,
-      columnId: null
+      userId: '78339fba-ccd2-4d8e-8cfc-017749c836fc',
+      boardId: '38e3a4a6-366f-494d-92d6-a78d78ee363a'
     },
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks',
+    url: '/boards/38e3a4a6-366f-494d-92d6-a78d78ee363a/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.289Z'
+  timestamp: '2020-10-18 23:13:54.118'
 }
 {
   message: {
     query: {},
     body: {
-      title: 'Task #4',
-      order: 4,
+      title: 'Task #1',
+      order: 1,
       description: 'Lorem ipsum',
-      boardId: 'bbe50e6c-d463-4178-9121-b12a10819fd5',
+      boardId: '068285de-7b7f-4f4d-95ab-163aa9a85a95',
       userId: null,
       columnId: null
     },
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks',
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.290Z'
+  timestamp: '2020-10-18 23:13:54.120'
+}
+{
+  message: {
+    query: {},
+    body: {
+      title: 'Task #2',
+      order: 2,
+      description: 'Lorem ipsum',
+      boardId: '068285de-7b7f-4f4d-95ab-163aa9a85a95',
+      userId: null,
+      columnId: null
+    },
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.121'
 }
 {
   message: {
@@ -638,16 +1092,34 @@
       title: 'Task #3',
       order: 3,
       description: 'Lorem ipsum',
-      boardId: 'bbe50e6c-d463-4178-9121-b12a10819fd5',
+      boardId: '068285de-7b7f-4f4d-95ab-163aa9a85a95',
       userId: null,
       columnId: null
     },
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks',
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.291Z'
+  timestamp: '2020-10-18 23:13:54.121'
+}
+{
+  message: {
+    query: {},
+    body: {
+      title: 'Task #4',
+      order: 4,
+      description: 'Lorem ipsum',
+      boardId: '068285de-7b7f-4f4d-95ab-163aa9a85a95',
+      userId: null,
+      columnId: null
+    },
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.122'
 }
 {
   message: {
@@ -656,203 +1128,697 @@
       title: 'Task #5',
       order: 5,
       description: 'Lorem ipsum',
-      boardId: 'bbe50e6c-d463-4178-9121-b12a10819fd5',
+      boardId: '068285de-7b7f-4f4d-95ab-163aa9a85a95',
       userId: null,
       columnId: null
     },
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks',
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.292Z'
+  timestamp: '2020-10-18 23:13:54.123'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/449f7e1b-3b85-47b5-9752-564b6e4fff6e/tasks/701e4b3f-a8da-472c-88a5-384691449a4a',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.293Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/f937a8be-fd25-48e1-87b2-a438f20e8311',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.295Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/aeba5d55-7f5f-4ca7-9734-59af4ec9ecbd',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.296Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/750c3089-1837-4f71-9949-444cd2134366',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.297Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/37b89b3f-b84a-4e4c-be3e-93c25db6cee4',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.298Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/e8096600-9b2e-43a3-8ae6-e6092d212ae7',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.299Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/449f7e1b-3b85-47b5-9752-564b6e4fff6e/tasks/58dafd97-7d5d-46f5-9e84-c77b8510efbf',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:32:17.300Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5',
+    url: '/users/78339fba-ccd2-4d8e-8cfc-017749c836fc',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.302Z'
+  timestamp: '2020-10-18 23:13:54.124'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/449f7e1b-3b85-47b5-9752-564b6e4fff6e/tasks/701e4b3f-a8da-472c-88a5-384691449a4a',
+    url: '/boards/38e3a4a6-366f-494d-92d6-a78d78ee363a/tasks/e69660bc-b53d-4104-b626-d1a49fd05ca1',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.125'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/998a69e6-5a02-4e3c-a1a7-69d4a2244942',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.126'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/3b6e3591-d350-4b8e-a842-a6b84bda9eda',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.127'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/8ab3a696-57ab-4ce9-9b7a-803b7a68b3a2',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.128'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/da59f288-955c-45a2-acef-a3dbc68dc4d4',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.129'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/1d4624c4-ffa2-4bc0-bffb-9acadfe0d3e5',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.129'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/38e3a4a6-366f-494d-92d6-a78d78ee363a/tasks/1bcb5c92-fc5d-4e05-96c4-f50e2a06478e',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.130'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.303Z'
+  timestamp: '2020-10-18 23:13:54.131'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/449f7e1b-3b85-47b5-9752-564b6e4fff6e/tasks/58dafd97-7d5d-46f5-9e84-c77b8510efbf',
+    url: '/boards/38e3a4a6-366f-494d-92d6-a78d78ee363a/tasks/e69660bc-b53d-4104-b626-d1a49fd05ca1',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.305Z'
+  timestamp: '2020-10-18 23:13:54.132'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/f937a8be-fd25-48e1-87b2-a438f20e8311',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:32:17.310Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/37b89b3f-b84a-4e4c-be3e-93c25db6cee4',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:32:17.312Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/e8096600-9b2e-43a3-8ae6-e6092d212ae7',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:32:17.313Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/aeba5d55-7f5f-4ca7-9734-59af4ec9ecbd',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:32:17.314Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/750c3089-1837-4f71-9949-444cd2134366',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:32:17.314Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/449f7e1b-3b85-47b5-9752-564b6e4fff6e',
+    url: '/boards/38e3a4a6-366f-494d-92d6-a78d78ee363a/tasks/1bcb5c92-fc5d-4e05-96c4-f50e2a06478e',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.316Z'
+  timestamp: '2020-10-18 23:13:54.133'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/165a2972-7124-4b55-83f2-6a495db5979a',
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/3b6e3591-d350-4b8e-a842-a6b84bda9eda',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:13:54.134'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/998a69e6-5a02-4e3c-a1a7-69d4a2244942',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:13:54.135'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/8ab3a696-57ab-4ce9-9b7a-803b7a68b3a2',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:13:54.136'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/da59f288-955c-45a2-acef-a3dbc68dc4d4',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:13:54.137'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/068285de-7b7f-4f4d-95ab-163aa9a85a95/tasks/1d4624c4-ffa2-4bc0-bffb-9acadfe0d3e5',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:13:54.137'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/38e3a4a6-366f-494d-92d6-a78d78ee363a',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:32:17.317Z'
+  timestamp: '2020-10-18 23:13:54.141'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/ecffde61-16cd-4915-8bf8-facd143eaa86',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:13:54.144'
+}
+{
+  error: Error: Uncaught exception!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Uncaught exception!\n' +
+    'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:15:45 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 6908,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42520576,
+      heapTotal: 20008960,
+      heapUsed: 13815824,
+      external: 1386238,
+      arrayBuffers: 47844
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15323 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:15:45.315'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Uncaught exception!',
+    stack: Error: Uncaught exception!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:15:45.320'
+}
+{
+  error: Error: Uncaught exception!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Uncaught exception!\n' +
+    'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:23:33 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 5864,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42459136,
+      heapTotal: 19746816,
+      heapUsed: 13833720,
+      external: 1386238,
+      arrayBuffers: 47844
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15792 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:23:33.844'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Uncaught exception!',
+    stack: Error: Uncaught exception!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:23:33.849'
+}
+{
+  error: Error: Uncaught exception!
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10),
+  level: 'error',
+  message: 'uncaughtException: Uncaught exception!\n' +
+    'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  stack: 'Error: Uncaught exception!\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\app.js:34:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:2:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)',
+  exception: true,
+  date: 'Sun Oct 18 2020 23:24:45 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 4820,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 42639360,
+      heapTotal: 20271104,
+      heapUsed: 13800496,
+      external: 1386238,
+      arrayBuffers: 47844
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15864 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\app.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-18 23:24:45.660'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Uncaught exception!',
+    stack: Error: Uncaught exception!
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\app.js:34:7)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:2:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+  },
+  level: 'error',
+  timestamp: '2020-10-18 23:24:45.664'
 }
 {
   message: {
@@ -866,7 +1832,7 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.912Z'
+  timestamp: '2020-10-18 23:26:07.096'
 }
 {
   message: {
@@ -880,17 +1846,12 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.917Z'
-}
-{
-  message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.919Z'
+  timestamp: '2020-10-18 23:26:07.101'
 }
 {
   message: { query: {}, body: {}, url: '/users', method: 'GET', status: 200 },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.920Z'
+  timestamp: '2020-10-18 23:26:07.102'
 }
 {
   message: {
@@ -903,28 +1864,28 @@
       boardId: null,
       columnId: null
     },
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks',
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.924Z'
+  timestamp: '2020-10-18 23:26:07.104'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.106'
 }
 {
   message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.925Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.926Z'
+  timestamp: '2020-10-18 23:26:07.107'
 }
 {
   message: {
@@ -939,102 +1900,67 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.928Z'
+  timestamp: '2020-10-18 23:26:07.110'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/6487ff9b-1d5a-4ab9-bff3-6509006a4d85',
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks',
     method: 'GET',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.929Z'
+  timestamp: '2020-10-18 23:26:07.112'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/users/0d8ffa27-22c8-4f47-a357-7d67597dd075',
+    url: '/users/8978abc3-2c14-4c3d-896e-b4d33f8ae9c0',
     method: 'GET',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.931Z'
+  timestamp: '2020-10-18 23:26:07.114'
+}
+{
+  message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.115'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks',
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks/6502912b-547d-4bce-93c6-74e71362ccb6',
     method: 'GET',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.932Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.933Z'
+  timestamp: '2020-10-18 23:26:07.116'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks/51564ea5-b046-4f14-8725-af22993ec473',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.936Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/0d8ffa27-22c8-4f47-a357-7d67597dd075',
+    url: '/users/8978abc3-2c14-4c3d-896e-b4d33f8ae9c0',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.936Z'
+  timestamp: '2020-10-18 23:26:07.118'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/017524c8-dda1-4b5c-be71-842f75bd7530',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.938Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf',
+    method: 'GET',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.939Z'
+  timestamp: '2020-10-18 23:26:07.118'
 }
 {
   message: {
@@ -1047,12 +1973,27 @@
       boardId: null,
       columnId: null
     },
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks',
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.940Z'
+  timestamp: '2020-10-18 23:26:07.120'
+}
+{
+  message: {
+    query: {},
+    body: {
+      name: 'TEST_USER',
+      login: 'test_user',
+      password: 'T35t_P@55w0rd'
+    },
+    url: '/users',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.121'
 }
 {
   message: {
@@ -1066,118 +2007,132 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.941Z'
+  timestamp: '2020-10-18 23:26:07.122'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks/67224082-7b9e-4989-a873-3fa79ff45fbb',
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks/789b4c5f-a9c2-4252-bd8c-5aade9f206b5',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.942Z'
+  timestamp: '2020-10-18 23:26:07.123'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/users/860a0b41-3c00-48d3-8674-22902e34d4e1',
+    url: '/boards/edac6d3f-5de2-49be-9bc5-2378db5b0ff1',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.943Z'
+  timestamp: '2020-10-18 23:26:07.124'
 }
 {
   message: {
     query: {},
     body: {
-      id: '0a081aab-1477-42a9-9613-c622d6fa555b',
+      title: 'Autotest task',
+      order: 0,
+      description: 'Lorem ipsum',
+      userId: null,
+      boardId: null,
+      columnId: null
+    },
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.126'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/users/8b7835f1-ea0e-4229-b013-73ddd54e687f',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.126'
+}
+{
+  message: {
+    query: {},
+    body: {
+      title: 'Autotest board',
+      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
+    },
+    url: '/boards',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.127'
+}
+{
+  message: {
+    query: {},
+    body: {
+      name: 'TEST_USER',
+      login: 'test_user',
+      password: 'T35t_P@55w0rd'
+    },
+    url: '/users',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.128'
+}
+{
+  message: {
+    query: {},
+    body: {
+      id: '037217f9-2b68-47d7-82b1-cb008c7c4929',
+      title: 'Autotest updated task',
+      order: 0,
+      description: 'Lorem ipsum',
+      userId: null,
+      boardId: '32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf',
+      columnId: null
+    },
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks/037217f9-2b68-47d7-82b1-cb008c7c4929',
+    method: 'PUT',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.129'
+}
+{
+  message: {
+    query: {},
+    body: {
+      id: '914771c3-b8e3-423d-b4cf-d9e7fcb22adc',
       title: 'Autotest updated board',
       columns: [
         {
-          id: 'e44ae698-d65d-4d83-b08d-00cfcbf21420',
+          id: 'eef36bd4-7664-4c88-8d8d-ebc2f0d5c17f',
           title: 'Backlog',
           order: 1
         },
         {
-          id: 'e5388f70-b2a8-43b5-9263-e228019d9c44',
+          id: '310ff23f-fdc0-403b-a8c7-1d27fd302a34',
           title: 'Sprint',
           order: 2
         }
       ]
     },
-    url: '/boards/0a081aab-1477-42a9-9613-c622d6fa555b',
+    url: '/boards/914771c3-b8e3-423d-b4cf-d9e7fcb22adc',
     method: 'PUT',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.944Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.946Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.947Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/0a081aab-1477-42a9-9613-c622d6fa555b',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.948Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      id: '1ee8c2aa-d28a-4435-9af4-1f88853c8530',
-      title: 'Autotest updated task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: '2f9d63a3-a08d-4293-8e2f-8a39089835ef',
-      columnId: null
-    },
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks/1ee8c2aa-d28a-4435-9af4-1f88853c8530',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.954Z'
+  timestamp: '2020-10-18 23:26:07.130'
 }
 {
   message: {
@@ -1186,47 +2141,91 @@
       name: 'Autotest updated TEST_USER',
       login: 'test_user',
       password: 'T35t_P@55w0rd',
-      id: '0a3829c9-29dd-4336-8701-a4f7a951bc7e'
+      id: 'cb791809-f862-466e-af3b-2cafb106e1ea'
     },
-    url: '/users/0a3829c9-29dd-4336-8701-a4f7a951bc7e',
+    url: '/users/cb791809-f862-466e-af3b-2cafb106e1ea',
     method: 'PUT',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.955Z'
+  timestamp: '2020-10-18 23:26:07.131'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/0a081aab-1477-42a9-9613-c622d6fa555b',
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks/037217f9-2b68-47d7-82b1-cb008c7c4929',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.132'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/914771c3-b8e3-423d-b4cf-d9e7fcb22adc',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.133'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/users/cb791809-f862-466e-af3b-2cafb106e1ea',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.133'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks/6502912b-547d-4bce-93c6-74e71362ccb6',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.135'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/914771c3-b8e3-423d-b4cf-d9e7fcb22adc',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.956Z'
+  timestamp: '2020-10-18 23:26:07.135'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks/1ee8c2aa-d28a-4435-9af4-1f88853c8530',
-    method: 'GET',
-    status: 200
+    url: '/users/cb791809-f862-466e-af3b-2cafb106e1ea',
+    method: 'DELETE',
+    status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.957Z'
+  timestamp: '2020-10-18 23:26:07.137'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/users/0a3829c9-29dd-4336-8701-a4f7a951bc7e',
-    method: 'GET',
-    status: 200
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks/6502912b-547d-4bce-93c6-74e71362ccb6',
+    method: 'DELETE',
+    status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.958Z'
+  timestamp: '2020-10-18 23:26:07.138'
 }
 {
   message: {
@@ -1240,51 +2239,7 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.959Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks/51564ea5-b046-4f14-8725-af22993ec473',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.960Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/0a3829c9-29dd-4336-8701-a4f7a951bc7e',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.962Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/35abeef8-2d34-4c17-8074-6ef641ae56da',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.963Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks/51564ea5-b046-4f14-8725-af22993ec473',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.964Z'
+  timestamp: '2020-10-18 23:26:07.139'
 }
 {
   message: {
@@ -1299,65 +2254,62 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.965Z'
+  timestamp: '2020-10-18 23:26:07.140'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/35abeef8-2d34-4c17-8074-6ef641ae56da',
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf/tasks/6502912b-547d-4bce-93c6-74e71362ccb6',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:39:42.966Z'
+  timestamp: '2020-10-18 23:26:07.141'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks/51564ea5-b046-4f14-8725-af22993ec473',
+    url: '/boards/99cdb40d-a381-4baa-9e22-1d6a490f45c9',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.144'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/users/5cd8cf3f-55dd-4418-9521-4fb81e206efd',
+    method: 'DELETE',
+    status: 204
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.146'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/99cdb40d-a381-4baa-9e22-1d6a490f45c9',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18T17:39:42.967Z'
+  timestamp: '2020-10-18 23:26:07.147'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/users/e7aecd80-9137-4e6c-aac6-1a7076e4e69b',
+    url: '/boards/32f49db9-9c9c-47d4-ba2d-b9de9e45a1bf',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.969Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.969Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.971Z'
+  timestamp: '2020-10-18 23:26:07.147'
 }
 {
   message: {
@@ -1372,7 +2324,35 @@
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.972Z'
+  timestamp: '2020-10-18 23:26:07.148'
+}
+{
+  message: {
+    query: {},
+    body: {
+      title: 'Autotest board',
+      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
+    },
+    url: '/boards',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.149'
+}
+{
+  message: {
+    query: {},
+    body: {
+      title: 'Autotest board',
+      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
+    },
+    url: '/boards',
+    method: 'POST',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.150'
 }
 {
   message: {
@@ -1381,16 +2361,15 @@
       title: 'Task #1',
       order: 1,
       description: 'Lorem ipsum',
-      boardId: '8dba7f4d-930c-4a59-986b-320e45d5d9a5',
-      userId: null,
-      columnId: null
+      userId: 'cdb73ba3-a00d-4264-ae0c-cb7865dc42d3',
+      boardId: '954e9794-f1f8-4043-b14e-8039e0401b56'
     },
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks',
+    url: '/boards/954e9794-f1f8-4043-b14e-8039e0401b56/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.973Z'
+  timestamp: '2020-10-18 23:26:07.152'
 }
 {
   message: {
@@ -1399,34 +2378,15 @@
       title: 'Task #2',
       order: 2,
       description: 'Lorem ipsum',
-      boardId: '8dba7f4d-930c-4a59-986b-320e45d5d9a5',
-      userId: null,
-      columnId: null
+      userId: 'cdb73ba3-a00d-4264-ae0c-cb7865dc42d3',
+      boardId: '954e9794-f1f8-4043-b14e-8039e0401b56'
     },
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks',
+    url: '/boards/954e9794-f1f8-4043-b14e-8039e0401b56/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.974Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #3',
-      order: 3,
-      description: 'Lorem ipsum',
-      boardId: '8dba7f4d-930c-4a59-986b-320e45d5d9a5',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.975Z'
+  timestamp: '2020-10-18 23:26:07.153'
 }
 {
   message: {
@@ -1435,103 +2395,16 @@
       title: 'Task #4',
       order: 4,
       description: 'Lorem ipsum',
-      boardId: '8dba7f4d-930c-4a59-986b-320e45d5d9a5',
+      boardId: '6b06c556-b731-4ac0-bc13-f975b7e2a248',
       userId: null,
       columnId: null
     },
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.976Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #5',
-      order: 5,
-      description: 'Lorem ipsum',
-      boardId: '8dba7f4d-930c-4a59-986b-320e45d5d9a5',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.977Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.979Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/06281c98-8270-486a-9099-6aa65c652892',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.980Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/5ba2fbbe-9dba-4be2-95d0-ad81ce853b1d',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.981Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/11f3e0b8-ac78-4c03-a972-9803fc68fb81',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.982Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/13be7344-a21b-4091-9124-61ef20143563',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.983Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/f76e6251-7e00-4cf0-8494-e401b049bec5',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.984Z'
+  timestamp: '2020-10-18 23:26:07.154'
 }
 {
   message: {
@@ -1540,15 +2413,16 @@
       title: 'Task #1',
       order: 1,
       description: 'Lorem ipsum',
-      userId: 'feadceae-61f8-46c9-81ac-888907278254',
-      boardId: '08c66a9c-41da-4408-860e-f02fe32b0b38'
+      boardId: '6b06c556-b731-4ac0-bc13-f975b7e2a248',
+      userId: null,
+      columnId: null
     },
-    url: '/boards/08c66a9c-41da-4408-860e-f02fe32b0b38/tasks',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18T17:39:42.985Z'
+  timestamp: '2020-10-18 23:26:07.155'
 }
 {
   message: {
@@ -1557,766 +2431,16 @@
       title: 'Task #2',
       order: 2,
       description: 'Lorem ipsum',
-      userId: 'feadceae-61f8-46c9-81ac-888907278254',
-      boardId: '08c66a9c-41da-4408-860e-f02fe32b0b38'
-    },
-    url: '/boards/08c66a9c-41da-4408-860e-f02fe32b0b38/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.986Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.987Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/feadceae-61f8-46c9-81ac-888907278254',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.988Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/08c66a9c-41da-4408-860e-f02fe32b0b38/tasks/ae61a25a-dec8-4782-91ff-55e0c573c644',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.989Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/06281c98-8270-486a-9099-6aa65c652892',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:39:42.990Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/5ba2fbbe-9dba-4be2-95d0-ad81ce853b1d',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:39:42.991Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/11f3e0b8-ac78-4c03-a972-9803fc68fb81',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:39:42.992Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/13be7344-a21b-4091-9124-61ef20143563',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:39:42.993Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/f76e6251-7e00-4cf0-8494-e401b049bec5',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18T17:39:42.994Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/08c66a9c-41da-4408-860e-f02fe32b0b38/tasks/e179c722-c081-432b-9aa2-24b8b5d1e774',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:42.996Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/6487ff9b-1d5a-4ab9-bff3-6509006a4d85',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:43.004Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/08c66a9c-41da-4408-860e-f02fe32b0b38/tasks/ae61a25a-dec8-4782-91ff-55e0c573c644',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:43.006Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/08c66a9c-41da-4408-860e-f02fe32b0b38/tasks/e179c722-c081-432b-9aa2-24b8b5d1e774',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:43.006Z'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/08c66a9c-41da-4408-860e-f02fe32b0b38',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18T17:39:43.008Z'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.451'
-}
-{
-  message: { query: {}, body: {}, url: '/users', method: 'GET', status: 200 },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.457'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.458'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.459'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.462'
-}
-{
-  message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.463'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.465'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/db68aa3e-93b3-4da7-a9b0-73c1663ddfb7',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.466'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.468'
-}
-{
-  message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.469'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/db68aa3e-93b3-4da7-a9b0-73c1663ddfb7',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.470'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks/fc034f82-a874-4eeb-bdb5-4da27e3b9430',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.471'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.473'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.474'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.475'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/a6343cb7-8955-4e57-9880-81615eeca962',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.476'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.477'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks/49e1d2c6-dbac-4938-902c-bfe62aea2ea7',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.479'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.480'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.481'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b6d1b0db-5568-4974-82d2-d86ff5b673d4',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.482'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'Autotest updated TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd',
-      id: '18150fc6-83cd-43ab-bfdc-6e9bc6995116'
-    },
-    url: '/users/18150fc6-83cd-43ab-bfdc-6e9bc6995116',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.483'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.484'
-}
-{
-  message: {
-    query: {},
-    body: {
-      id: '52d2d278-b098-4dc9-b381-b0952bc79073',
-      title: 'Autotest updated task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: 'b34a257a-7869-43e5-9f6c-4ae8cbd271e4',
-      columnId: null
-    },
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks/52d2d278-b098-4dc9-b381-b0952bc79073',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.485'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/18150fc6-83cd-43ab-bfdc-6e9bc6995116',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.487'
-}
-{
-  message: {
-    query: {},
-    body: {
-      id: 'db2b946c-e6d9-432e-9a75-4570c5e772dd',
-      title: 'Autotest updated board',
-      columns: [
-        {
-          id: '45daf297-a70d-4465-ba5e-4c5d5daf225a',
-          title: 'Backlog',
-          order: 1
-        },
-        {
-          id: 'aecc9ec5-6b18-4ad8-b302-0066d2ff9bb6',
-          title: 'Sprint',
-          order: 2
-        }
-      ]
-    },
-    url: '/boards/db2b946c-e6d9-432e-9a75-4570c5e772dd',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.493'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks/52d2d278-b098-4dc9-b381-b0952bc79073',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.494'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/18150fc6-83cd-43ab-bfdc-6e9bc6995116',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.496'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/db2b946c-e6d9-432e-9a75-4570c5e772dd',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.497'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks/fc034f82-a874-4eeb-bdb5-4da27e3b9430',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.498'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.499'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/db2b946c-e6d9-432e-9a75-4570c5e772dd',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.501'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks/fc034f82-a874-4eeb-bdb5-4da27e3b9430',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.502'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/d73bcf24-fa64-4726-8e14-c3cfde6e20da',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.503'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.504'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks/fc034f82-a874-4eeb-bdb5-4da27e3b9430',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:42:00.506'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.507'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/08db1a7f-603c-4906-9080-08a212f1a634',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.508'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.509'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.509'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/08db1a7f-603c-4906-9080-08a212f1a634',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:42:00.510'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #1',
-      order: 1,
-      description: 'Lorem ipsum',
-      userId: 'a03f8eb7-2427-487f-852b-ff899101baa8',
-      boardId: 'dcb2c607-de01-451f-8635-c7621546281e'
-    },
-    url: '/boards/dcb2c607-de01-451f-8635-c7621546281e/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.511'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #2',
-      order: 2,
-      description: 'Lorem ipsum',
-      userId: 'a03f8eb7-2427-487f-852b-ff899101baa8',
-      boardId: 'dcb2c607-de01-451f-8635-c7621546281e'
-    },
-    url: '/boards/dcb2c607-de01-451f-8635-c7621546281e/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.512'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.514'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/a03f8eb7-2427-487f-852b-ff899101baa8',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.515'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/dcb2c607-de01-451f-8635-c7621546281e/tasks/6431419d-ffb2-437a-a025-d7168112df34',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.516'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #2',
-      order: 2,
-      description: 'Lorem ipsum',
-      boardId: '642d94a0-87db-420a-8f77-b24a7af960fa',
+      boardId: '6b06c556-b731-4ac0-bc13-f975b7e2a248',
       userId: null,
       columnId: null
     },
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18 20:42:00.518'
+  timestamp: '2020-10-18 23:26:07.156'
 }
 {
   message: {
@@ -2325,52 +2449,16 @@
       title: 'Task #3',
       order: 3,
       description: 'Lorem ipsum',
-      boardId: '642d94a0-87db-420a-8f77-b24a7af960fa',
+      boardId: '6b06c556-b731-4ac0-bc13-f975b7e2a248',
       userId: null,
       columnId: null
     },
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18 20:42:00.523'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #1',
-      order: 1,
-      description: 'Lorem ipsum',
-      boardId: '642d94a0-87db-420a-8f77-b24a7af960fa',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.525'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #4',
-      order: 4,
-      description: 'Lorem ipsum',
-      boardId: '642d94a0-87db-420a-8f77-b24a7af960fa',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.526'
+  timestamp: '2020-10-18 23:26:07.157'
 }
 {
   message: {
@@ -2379,1902 +2467,212 @@
       title: 'Task #5',
       order: 5,
       description: 'Lorem ipsum',
-      boardId: '642d94a0-87db-420a-8f77-b24a7af960fa',
+      boardId: '6b06c556-b731-4ac0-bc13-f975b7e2a248',
       userId: null,
       columnId: null
     },
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks',
     method: 'POST',
     status: 200
   },
   level: 'info',
-  timestamp: '2020-10-18 20:42:00.527'
+  timestamp: '2020-10-18 23:26:07.158'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/dcb2c607-de01-451f-8635-c7621546281e/tasks/91765af2-cc98-4fdc-99e3-db33d8aaee49',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.527'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/54305e43-cfab-4992-ae17-6756b60f1bd0',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.529'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/79f3d695-2c6e-4967-afe7-89b455c33c85',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.530'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/9849fda5-699f-44b5-9992-06af4ac52e25',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.530'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/5e590930-fa31-4b4d-9561-12ce1655a066',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.531'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/3256c45f-c589-47fe-b827-20a17b986abf',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:42:00.532'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/dcb2c607-de01-451f-8635-c7621546281e/tasks/6431419d-ffb2-437a-a025-d7168112df34',
+    url: '/users/cdb73ba3-a00d-4264-ae0c-cb7865dc42d3',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18 20:42:00.534'
+  timestamp: '2020-10-18 23:26:07.160'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/dcb2c607-de01-451f-8635-c7621546281e/tasks/91765af2-cc98-4fdc-99e3-db33d8aaee49',
+    url: '/boards/954e9794-f1f8-4043-b14e-8039e0401b56/tasks/50f6f1eb-1c42-45b4-8796-de12c8bca507',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.161'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/f02e4a5c-13d7-45b7-88ff-5a833a9b8a74',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.163'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/0c5e204d-6d48-4e2e-ae11-e2e20591986b',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.163'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/498b76b7-994c-462f-89fe-5d987cc88e27',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.164'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/243e15c0-cd25-4c5d-a808-9e9694a43136',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.165'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/8a0b268b-5042-46eb-b044-5b9957499bfd',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.166'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/954e9794-f1f8-4043-b14e-8039e0401b56/tasks/fd5aa2d3-0cf7-4381-8bbb-28c094406bc3',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-18 23:26:07.167'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18 20:42:00.534'
+  timestamp: '2020-10-18 23:26:07.168'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa',
+    url: '/boards/954e9794-f1f8-4043-b14e-8039e0401b56/tasks/50f6f1eb-1c42-45b4-8796-de12c8bca507',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18 20:42:00.535'
+  timestamp: '2020-10-18 23:26:07.169'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/dcb2c607-de01-451f-8635-c7621546281e',
+    url: '/boards/954e9794-f1f8-4043-b14e-8039e0401b56/tasks/fd5aa2d3-0cf7-4381-8bbb-28c094406bc3',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18 20:42:00.536'
+  timestamp: '2020-10-18 23:26:07.170'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/54305e43-cfab-4992-ae17-6756b60f1bd0',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/0c5e204d-6d48-4e2e-ae11-e2e20591986b',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18 20:42:00.538'
+  timestamp: '2020-10-18 23:26:07.171'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/79f3d695-2c6e-4967-afe7-89b455c33c85',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/498b76b7-994c-462f-89fe-5d987cc88e27',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18 20:42:00.539'
+  timestamp: '2020-10-18 23:26:07.171'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/9849fda5-699f-44b5-9992-06af4ac52e25',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/243e15c0-cd25-4c5d-a808-9e9694a43136',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18 20:42:00.539'
+  timestamp: '2020-10-18 23:26:07.172'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/5e590930-fa31-4b4d-9561-12ce1655a066',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/f02e4a5c-13d7-45b7-88ff-5a833a9b8a74',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18 20:42:00.540'
+  timestamp: '2020-10-18 23:26:07.173'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/3256c45f-c589-47fe-b827-20a17b986abf',
+    url: '/boards/6b06c556-b731-4ac0-bc13-f975b7e2a248/tasks/8a0b268b-5042-46eb-b044-5b9957499bfd',
     method: 'GET',
     status: 404
   },
   level: 'error',
-  timestamp: '2020-10-18 20:42:00.541'
+  timestamp: '2020-10-18 23:26:07.175'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/a690e66f-e691-4c9a-856c-9612dc32d1e4',
+    url: '/boards/954e9794-f1f8-4043-b14e-8039e0401b56',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18 20:42:00.542'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.426'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.432'
-}
-{
-  message: { query: {}, body: {}, url: '/users', method: 'GET', status: 200 },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.434'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.436'
-}
-{
-  message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.438'
+  timestamp: '2020-10-18 23:26:07.177'
 }
 {
   message: {
     query: {},
     body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.439'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.442'
-}
-{
-  message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.443'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/70a00243-8a24-403b-bffc-bb4b2df839d3',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.445'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.448'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.451'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/70a00243-8a24-403b-bffc-bb4b2df839d3',
+    url: '/boards/6e57e295-e251-42e2-8e97-944179571dd5',
     method: 'DELETE',
     status: 204
   },
   level: 'info',
-  timestamp: '2020-10-18 20:48:57.453'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks/a65bd1bf-2ead-4a68-b792-65b8bd2a6cca',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.454'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.455'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.456'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.458'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4b18662f-0e70-47f8-883f-310aa34d4aba',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.459'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks/5ed571d5-050d-4a64-94df-f458f043b836',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.461'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/81b728b5-dfec-4686-9287-7add0d1b3197',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.462'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.463'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.464'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.466'
-}
-{
-  message: {
-    query: {},
-    body: {
-      id: 'dc6bb399-3d82-4e43-bb77-9bffcbe5ed5f',
-      title: 'Autotest updated board',
-      columns: [
-        {
-          id: '15157951-0099-4e25-b496-8b2f30ab7c82',
-          title: 'Backlog',
-          order: 1
-        },
-        {
-          id: '871a2e21-cdc9-46c5-93b3-451783b51db5',
-          title: 'Sprint',
-          order: 2
-        }
-      ]
-    },
-    url: '/boards/dc6bb399-3d82-4e43-bb77-9bffcbe5ed5f',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.467'
-}
-{
-  message: {
-    query: {},
-    body: {
-      id: 'd8a54d10-e315-48c5-94e0-56e289c680b9',
-      title: 'Autotest updated task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: '22597837-87e8-4150-a739-90d0277aa899',
-      columnId: null
-    },
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks/d8a54d10-e315-48c5-94e0-56e289c680b9',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.469'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'Autotest updated TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd',
-      id: '4c9b546c-d472-4bd2-9327-9c43ecc454d4'
-    },
-    url: '/users/4c9b546c-d472-4bd2-9327-9c43ecc454d4',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.471'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/dc6bb399-3d82-4e43-bb77-9bffcbe5ed5f',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.472'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks/d8a54d10-e315-48c5-94e0-56e289c680b9',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.474'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/4c9b546c-d472-4bd2-9327-9c43ecc454d4',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.475'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks/a65bd1bf-2ead-4a68-b792-65b8bd2a6cca',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.481'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/dc6bb399-3d82-4e43-bb77-9bffcbe5ed5f',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.482'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/4c9b546c-d472-4bd2-9327-9c43ecc454d4',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.483'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.485'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks/a65bd1bf-2ead-4a68-b792-65b8bd2a6cca',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.487'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.488'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/5bad964f-f0a0-4412-a729-63a469730cfe',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.489'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks/a65bd1bf-2ead-4a68-b792-65b8bd2a6cca',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.490'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/d8cb2a73-7877-43c0-9e3a-196509c3b5fc',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.492'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/5bad964f-f0a0-4412-a729-63a469730cfe',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.492'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/22597837-87e8-4150-a739-90d0277aa899',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.494'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.495'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.496'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.497'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #1',
-      order: 1,
-      description: 'Lorem ipsum',
-      boardId: '4add34b4-5630-4a52-a99a-d112d04388e6',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.499'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #2',
-      order: 2,
-      description: 'Lorem ipsum',
-      boardId: '4add34b4-5630-4a52-a99a-d112d04388e6',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.500'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #3',
-      order: 3,
-      description: 'Lorem ipsum',
-      boardId: '4add34b4-5630-4a52-a99a-d112d04388e6',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.501'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #1',
-      order: 1,
-      description: 'Lorem ipsum',
-      userId: 'fbbf7821-a45a-49c5-badd-2d46a79d7799',
-      boardId: '4f2e6a98-a803-4c37-bfa4-fc5efae7438f'
-    },
-    url: '/boards/4f2e6a98-a803-4c37-bfa4-fc5efae7438f/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.503'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #4',
-      order: 4,
-      description: 'Lorem ipsum',
-      boardId: '4add34b4-5630-4a52-a99a-d112d04388e6',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.504'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #5',
-      order: 5,
-      description: 'Lorem ipsum',
-      boardId: '4add34b4-5630-4a52-a99a-d112d04388e6',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.505'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #2',
-      order: 2,
-      description: 'Lorem ipsum',
-      userId: 'fbbf7821-a45a-49c5-badd-2d46a79d7799',
-      boardId: '4f2e6a98-a803-4c37-bfa4-fc5efae7438f'
-    },
-    url: '/boards/4f2e6a98-a803-4c37-bfa4-fc5efae7438f/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.506'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/639aed20-a06e-451e-afe0-acfce3f17f4f',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.508'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/5b08ee27-6f7d-49e8-ba99-0d4513238b88',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.509'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/bcf2a014-3cf1-4155-ba69-f7b27158d9f7',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.509'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/8047a36b-8e22-4c47-8da4-f8fbc68347ea',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.510'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/24a05548-fc4a-42d1-917d-1142da48d9e8',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.512'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/fbbf7821-a45a-49c5-badd-2d46a79d7799',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.513'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.514'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4f2e6a98-a803-4c37-bfa4-fc5efae7438f/tasks/f31c8a3c-41a2-44fb-8a73-30bb72921aeb',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.515'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4f2e6a98-a803-4c37-bfa4-fc5efae7438f/tasks/1dde1060-8814-48fb-a3ae-175723ed007d',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.516'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/639aed20-a06e-451e-afe0-acfce3f17f4f',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.517'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/5b08ee27-6f7d-49e8-ba99-0d4513238b88',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.518'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/bcf2a014-3cf1-4155-ba69-f7b27158d9f7',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.519'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/8047a36b-8e22-4c47-8da4-f8fbc68347ea',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.520'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/24a05548-fc4a-42d1-917d-1142da48d9e8',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:48:57.521'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4f2e6a98-a803-4c37-bfa4-fc5efae7438f/tasks/f31c8a3c-41a2-44fb-8a73-30bb72921aeb',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.530'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4f2e6a98-a803-4c37-bfa4-fc5efae7438f/tasks/1dde1060-8814-48fb-a3ae-175723ed007d',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.530'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4daf9498-f5a9-45b2-aadf-ba4fbdd26786',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.532'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/4f2e6a98-a803-4c37-bfa4-fc5efae7438f',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:48:57.534'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.304'
-}
-{
-  message: { query: {}, body: {}, url: '/users', method: 'GET', status: 200 },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.310'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.312'
-}
-{
-  message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.313'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.317'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.319'
-}
-{
-  message: { query: {}, body: {}, url: '/boards', method: 'GET', status: 200 },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.320'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.322'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/d6243a66-3cda-476a-ab3a-d93c9da06e1a',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.323'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/f014de36-6e66-456b-b8f3-8ff2e6b9f4d3',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.324'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/d6243a66-3cda-476a-ab3a-d93c9da06e1a',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.327'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.328'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.329'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.331'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks/4965db6d-cc62-47d3-abc3-e12f573afebe',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.332'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/a9790855-e378-402f-a73d-87dbf9c507ca',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.334'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/fd6c29d3-43fa-4e22-8efe-33efc04c65ff',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.335'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.336'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.338'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.339'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks/a354e3f4-9273-4e14-a3f2-5ffe52612bad',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.341'
-}
-{
-  message: {
-    query: {},
-    body: {
-      id: '3a4fa08e-40be-45c8-a60e-47d5db9fa904',
-      title: 'Autotest updated board',
-      columns: [
-        {
-          id: '27b3ebc3-071a-494c-9216-1d0f5eb13270',
-          title: 'Backlog',
-          order: 1
-        },
-        {
-          id: '4c7e9664-1e71-41bf-a461-89a99d6abda2',
-          title: 'Sprint',
-          order: 2
-        }
-      ]
-    },
-    url: '/boards/3a4fa08e-40be-45c8-a60e-47d5db9fa904',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.342'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'Autotest updated TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd',
-      id: 'adac71c0-b9cb-4978-a662-e1f5ed1cb7ad'
-    },
-    url: '/users/adac71c0-b9cb-4978-a662-e1f5ed1cb7ad',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.344'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: null,
-      columnId: null
-    },
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.345'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/3a4fa08e-40be-45c8-a60e-47d5db9fa904',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.346'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/adac71c0-b9cb-4978-a662-e1f5ed1cb7ad',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.347'
-}
-{
-  message: {
-    query: {},
-    body: {
-      id: '89448efa-2b25-4d27-bcd3-28694c28f7ce',
-      title: 'Autotest updated task',
-      order: 0,
-      description: 'Lorem ipsum',
-      userId: null,
-      boardId: '95630c46-3be6-461d-bf2e-60488b2edc86',
-      columnId: null
-    },
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks/89448efa-2b25-4d27-bcd3-28694c28f7ce',
-    method: 'PUT',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.349'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/3a4fa08e-40be-45c8-a60e-47d5db9fa904',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.350'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/adac71c0-b9cb-4978-a662-e1f5ed1cb7ad',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.351'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks/89448efa-2b25-4d27-bcd3-28694c28f7ce',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.352'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.353'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.355'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks/4965db6d-cc62-47d3-abc3-e12f573afebe',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.356'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/87570db5-f0dd-4fc0-bb35-a0811513beeb',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.365'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/1dfb9458-04d4-4072-8ac2-2dc3d17f1567',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.367'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks/4965db6d-cc62-47d3-abc3-e12f573afebe',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.367'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/87570db5-f0dd-4fc0-bb35-a0811513beeb',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.370'
-}
-{
-  message: {
-    query: {},
-    body: {
-      name: 'TEST_USER',
-      login: 'test_user',
-      password: 'T35t_P@55w0rd'
-    },
-    url: '/users',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.373'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks/4965db6d-cc62-47d3-abc3-e12f573afebe',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.375'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.376'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Autotest board',
-      columns: [ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]
-    },
-    url: '/boards',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.378'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.379'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #1',
-      order: 1,
-      description: 'Lorem ipsum',
-      boardId: 'fc5f57a2-c38e-483f-ac62-6828d7e48282',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.380'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #2',
-      order: 2,
-      description: 'Lorem ipsum',
-      boardId: 'fc5f57a2-c38e-483f-ac62-6828d7e48282',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.381'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #3',
-      order: 3,
-      description: 'Lorem ipsum',
-      boardId: 'fc5f57a2-c38e-483f-ac62-6828d7e48282',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.383'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #4',
-      order: 4,
-      description: 'Lorem ipsum',
-      boardId: 'fc5f57a2-c38e-483f-ac62-6828d7e48282',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.384'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #5',
-      order: 5,
-      description: 'Lorem ipsum',
-      boardId: 'fc5f57a2-c38e-483f-ac62-6828d7e48282',
-      userId: null,
-      columnId: null
-    },
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.386'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #1',
-      order: 1,
-      description: 'Lorem ipsum',
-      userId: '8adc89f1-6e8f-4719-989b-126b5be5ac0c',
-      boardId: 'd5d9b5e3-737c-465c-97d6-a0bbc7cf35a1'
-    },
-    url: '/boards/d5d9b5e3-737c-465c-97d6-a0bbc7cf35a1/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.387'
-}
-{
-  message: {
-    query: {},
-    body: {
-      title: 'Task #2',
-      order: 2,
-      description: 'Lorem ipsum',
-      userId: '8adc89f1-6e8f-4719-989b-126b5be5ac0c',
-      boardId: 'd5d9b5e3-737c-465c-97d6-a0bbc7cf35a1'
-    },
-    url: '/boards/d5d9b5e3-737c-465c-97d6-a0bbc7cf35a1/tasks',
-    method: 'POST',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.388'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/01306884-afc7-4717-883e-6e8358bc72d1',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.390'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/22653c06-e78d-40e9-9ec1-894d84b95f5f',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.392'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/e23b015f-569b-4442-8586-35481ed5aba7',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.393'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/ec197cfe-e2fb-48ce-a2d8-c6b9cdf7a075',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.394'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/1f5805d6-0c0c-4143-9d3a-588958cef659',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.394'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/users/8adc89f1-6e8f-4719-989b-126b5be5ac0c',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.396'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.397'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/d5d9b5e3-737c-465c-97d6-a0bbc7cf35a1/tasks/cfe93995-e22c-448c-b0e5-79ad77715b71',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.398'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/d5d9b5e3-737c-465c-97d6-a0bbc7cf35a1/tasks/4fc3be08-a9db-4492-9c4b-0a17d05f085c',
-    method: 'GET',
-    status: 200
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.399'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/1f5805d6-0c0c-4143-9d3a-588958cef659',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.401'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/01306884-afc7-4717-883e-6e8358bc72d1',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.402'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/22653c06-e78d-40e9-9ec1-894d84b95f5f',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.403'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/e23b015f-569b-4442-8586-35481ed5aba7',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.404'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/ec197cfe-e2fb-48ce-a2d8-c6b9cdf7a075',
-    method: 'GET',
-    status: 404
-  },
-  level: 'error',
-  timestamp: '2020-10-18 20:52:10.411'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/d5d9b5e3-737c-465c-97d6-a0bbc7cf35a1/tasks/cfe93995-e22c-448c-b0e5-79ad77715b71',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.414'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/d5d9b5e3-737c-465c-97d6-a0bbc7cf35a1/tasks/4fc3be08-a9db-4492-9c4b-0a17d05f085c',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.414'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/f014de36-6e66-456b-b8f3-8ff2e6b9f4d3',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.416'
-}
-{
-  message: {
-    query: {},
-    body: {},
-    url: '/boards/d5d9b5e3-737c-465c-97d6-a0bbc7cf35a1',
-    method: 'DELETE',
-    status: 204
-  },
-  level: 'info',
-  timestamp: '2020-10-18 20:52:10.417'
+  timestamp: '2020-10-18 23:26:07.179'
 }
