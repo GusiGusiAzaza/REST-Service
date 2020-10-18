@@ -7,7 +7,7 @@ class ResponseError extends Error {
   }
 }
 
-const catchError = (err, req, res, next) => {
+const errorHandler = (err, req, res, next) => {
   if (err instanceof ResponseError) {
     res.status(err.status).send(httpStatus[err.status]);
   } else if (err) {
@@ -18,4 +18,4 @@ const catchError = (err, req, res, next) => {
   next();
 };
 
-module.exports = { ResponseError, catchError };
+module.exports = { ResponseError, errorHandler };

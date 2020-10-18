@@ -1,0 +1,385 @@
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/e2ab3136-d86e-4c4d-b942-13bf936a8fc1/tasks/294e7825-83fe-4599-a8e6-f36ccb153939',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:32:17.270Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/3c0c1d35-955c-4544-bd77-ee2d98dd6df3',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:32:17.270Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/f937a8be-fd25-48e1-87b2-a438f20e8311',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:32:17.310Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/37b89b3f-b84a-4e4c-be3e-93c25db6cee4',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:32:17.312Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/e8096600-9b2e-43a3-8ae6-e6092d212ae7',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:32:17.313Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/aeba5d55-7f5f-4ca7-9734-59af4ec9ecbd',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:32:17.314Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/bbe50e6c-d463-4178-9121-b12a10819fd5/tasks/750c3089-1837-4f71-9949-444cd2134366',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:32:17.314Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/35abeef8-2d34-4c17-8074-6ef641ae56da',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:39:42.967Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/2f9d63a3-a08d-4293-8e2f-8a39089835ef/tasks/51564ea5-b046-4f14-8725-af22993ec473',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:39:42.968Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/06281c98-8270-486a-9099-6aa65c652892',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:39:42.991Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/5ba2fbbe-9dba-4be2-95d0-ad81ce853b1d',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:39:42.991Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/11f3e0b8-ac78-4c03-a972-9803fc68fb81',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:39:42.992Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/13be7344-a21b-4091-9124-61ef20143563',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:39:42.993Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/8dba7f4d-930c-4a59-986b-320e45d5d9a5/tasks/f76e6251-7e00-4cf0-8494-e401b049bec5',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18T17:39:42.994Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/b34a257a-7869-43e5-9f6c-4ae8cbd271e4/tasks/fc034f82-a874-4eeb-bdb5-4da27e3b9430',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:42:00.506'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/08db1a7f-603c-4906-9080-08a212f1a634',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:42:00.510'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/54305e43-cfab-4992-ae17-6756b60f1bd0',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:42:00.538'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/79f3d695-2c6e-4967-afe7-89b455c33c85',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:42:00.539'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/9849fda5-699f-44b5-9992-06af4ac52e25',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:42:00.540'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/5e590930-fa31-4b4d-9561-12ce1655a066',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:42:00.540'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/642d94a0-87db-420a-8f77-b24a7af960fa/tasks/3256c45f-c589-47fe-b827-20a17b986abf',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:42:00.541'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/22597837-87e8-4150-a739-90d0277aa899/tasks/a65bd1bf-2ead-4a68-b792-65b8bd2a6cca',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:48:57.490'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/5bad964f-f0a0-4412-a729-63a469730cfe',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:48:57.492'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/639aed20-a06e-451e-afe0-acfce3f17f4f',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:48:57.517'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/5b08ee27-6f7d-49e8-ba99-0d4513238b88',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:48:57.518'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/bcf2a014-3cf1-4155-ba69-f7b27158d9f7',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:48:57.519'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/8047a36b-8e22-4c47-8da4-f8fbc68347ea',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:48:57.520'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4add34b4-5630-4a52-a99a-d112d04388e6/tasks/24a05548-fc4a-42d1-917d-1142da48d9e8',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:48:57.521'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/87570db5-f0dd-4fc0-bb35-a0811513beeb',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:52:10.370'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/95630c46-3be6-461d-bf2e-60488b2edc86/tasks/4965db6d-cc62-47d3-abc3-e12f573afebe',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:52:10.375'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/1f5805d6-0c0c-4143-9d3a-588958cef659',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:52:10.401'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/01306884-afc7-4717-883e-6e8358bc72d1',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:52:10.402'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/22653c06-e78d-40e9-9ec1-894d84b95f5f',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:52:10.403'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/e23b015f-569b-4442-8586-35481ed5aba7',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:52:10.404'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/fc5f57a2-c38e-483f-ac62-6828d7e48282/tasks/ec197cfe-e2fb-48ce-a2d8-c6b9cdf7a075',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-18 20:52:10.411'
+}
