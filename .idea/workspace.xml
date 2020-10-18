@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85259e5d-626f-4d63-8935-077ae10b55a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="85259e5d-626f-4d63-8935-077ae10b55a1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +60,11 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\main\RS node\REST_Service\node_modules\prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\main\RS node\REST_Service\src\components" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -92,7 +95,7 @@
       <workItem from="1602787208462" duration="1712000" />
       <workItem from="1602847356621" duration="294000" />
       <workItem from="1602957668003" duration="1014000" />
-      <workItem from="1603027766224" duration="1760000" />
+      <workItem from="1603027766224" duration="2219000" />
     </task>
     <servers />
   </component>
