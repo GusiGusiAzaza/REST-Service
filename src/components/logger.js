@@ -61,7 +61,6 @@ const logger = (req, res) => {
 
 const logUncaughtException = (message, text) => {
   process.stderr.write(errMessage(text));
-  process.stderr.write(message);
   myLogger.error(message);
   myLogger.on('finish', () => process.exit(1));
 };
