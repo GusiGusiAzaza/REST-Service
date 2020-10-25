@@ -2,34 +2,25 @@ const status = require('http-status');
 const Board = require('./board.model');
 const { ResponseError } = require('../../components/error-handler');
 
-let boards = [];
-
-const getAll = async () => boards;
+const getAll = async () => await Board.find({});
 
 const getById = async id => {
-  const board = boards.find(b => b.id === id);
+  const board = await Board.findById(id);
   if (board) return board;
 
   throw new ResponseError(status.NOT_FOUND);
 };
 
 const create = async data => {
-  const newBoard = new Board(data);
-  boards.push(newBoard);
-
-  return newBoard;
+  return Board.create(data);
 };
 
 const editById = async (id, data) => {
-  const board = await getById(id);
-  const newData = { board, ...data };
-  boards = boards.map(b => (b.id === id ? newData : b));
-
-  return newData;
+  return Board.updateOne({ _id: id }, data);
 };
 
 const removeById = async id => {
-  boards = boards.filter(b => b.id !== id);
+  await Board.deleteOne({ _id: id });
 };
 
 module.exports = { getAll, getById, create, removeById, editById };

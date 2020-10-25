@@ -26,14 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85259e5d-626f-4d63-8935-077ae10b55a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/db/mongo-connect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/mongo-connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/mongo-connect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/boards/board.memory.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.memory.repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/boards/board.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/boards/board.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/boards/board.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.memory.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.memory.repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/task.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/task.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.memory.repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +123,7 @@
       <workItem from="1603201446386" duration="2607000" />
       <workItem from="1603383833069" duration="49000" />
       <workItem from="1603638426565" duration="40000" />
-      <workItem from="1603638475177" duration="3269000" />
+      <workItem from="1603638475177" duration="9804000" />
     </task>
     <servers />
   </component>
@@ -166,22 +171,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="781" y="244" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602441702369" />
-    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1603642780561">
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1603651560753">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603642780561" />
-    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1603642780561">
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603651560753" />
+    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1603651560753">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603642780561" />
-    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1603642780561">
+    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603651560753" />
+    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1603651560753">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603642780561" />
-    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1603642780561">
+    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603651560753" />
+    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1603651560753">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603642780561" />
+    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603651560753" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603053191578">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

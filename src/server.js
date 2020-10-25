@@ -1,6 +1,6 @@
 const { PORT } = require('./common/config');
-const mongoConnect = require('./db/mongo-connect');
 const app = require('./app');
+const mongoConnect = require('./db/mongo-connect');
 
 mongoConnect()
   .then(() => {

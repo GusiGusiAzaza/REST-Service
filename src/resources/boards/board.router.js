@@ -2,11 +2,12 @@ const router = require('express').Router();
 const status = require('http-status');
 const boardsService = require('./board.service');
 const middleware = require('../../components/middleware-handler');
+const Board = require('./board.model');
 
 router.route('/').get(
   middleware(async (req, res, next) => {
     const boards = await boardsService.getAll();
-    await res.json(boards);
+    await res.json(boards.map(Board.toResponse));
     next();
   })
 );
@@ -14,7 +15,7 @@ router.route('/').get(
 router.route('/:id').get(
   middleware(async (req, res, next) => {
     const board = await boardsService.getById(req.params.id);
-    await res.json(board);
+    await res.json(Board.toResponse(board));
     next();
   })
 );
@@ -22,7 +23,7 @@ router.route('/:id').get(
 router.route('/').post(
   middleware(async (req, res, next) => {
     const board = await boardsService.create(req.body);
-    await res.status(status.OK).json(board);
+    await res.status(status.OK).json(Board.toResponse(board));
     next();
   })
 );
@@ -30,7 +31,7 @@ router.route('/').post(
 router.route('/:id').put(
   middleware(async (req, res, next) => {
     const board = await boardsService.editById(req.params.id, req.body);
-    await res.json(board);
+    await res.json(Board.toResponse(board));
     next();
   })
 );

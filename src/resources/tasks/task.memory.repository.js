@@ -2,46 +2,33 @@ const { NOT_FOUND } = require('http-status');
 const Task = require('./task.model');
 const { ResponseError } = require('../../components/error-handler');
 
-let tasks = [];
-
-const getByBoardId = async boardId =>
-  tasks.filter(task => task.boardId === boardId);
+const getByBoardId = async boardId => await Task.find({ boardId });
 
 const getByBoardIdAndId = async (boardId, id) => {
-  const task = tasks.find(t => t.id === id && t.boardId === boardId);
+  const task = await Task.findOne({ _id: id, boardId });
   if (task) return task;
 
   throw new ResponseError(NOT_FOUND);
 };
 
 const create = async (data, boardId) => {
-  const newData = new Task({ ...data, boardId });
-  tasks.push(newData);
-
-  return newData;
+  return Task.create({ ...data, boardId });
 };
 
 const editById = async (boardId, taskId, data) => {
-  const task = await getByBoardIdAndId(boardId, taskId);
-  const newData = { task, ...data };
-  tasks = tasks.map(t =>
-    t.id === taskId && t.boardId === boardId ? newData : t
-  );
-
-  return newData;
+  return Task.updateOne({ _id: taskId, boardId }, data);
 };
 
 const removeById = async (boardId, id) => {
-  await getByBoardIdAndId(boardId, id, true);
-  tasks = tasks.filter(t => t.id !== id);
+  await Task.deleteOne({ _id: id, boardId });
 };
 
 const editByUserId = async userId => {
-  tasks = tasks.map(t => (t.userId === userId ? { ...t, userId: null } : t));
+  await Task.updateMany({ userId }, { userId: null });
 };
 
 const removeByBoardId = async boardId => {
-  tasks = tasks.filter(t => t.boardId !== boardId);
+  await Task.deleteMany({ boardId });
 };
 
 module.exports = {
