@@ -7,7 +7,7 @@ let boards = [];
 const getAll = async () => boards;
 
 const getById = async id => {
-  const board = boards.find(board => board.id === id);
+  const board = boards.find(b => b.id === id);
   if (board) return board;
 
   throw new ResponseError(status.NOT_FOUND);
@@ -23,13 +23,13 @@ const create = async data => {
 const editById = async (id, data) => {
   const board = await getById(id);
   const newData = { board, ...data };
-  boards = boards.map(board => (board.id === id ? newData : board));
+  boards = boards.map(b => (b.id === id ? newData : b));
 
   return newData;
 };
 
 const removeById = async id => {
-  boards = boards.filter(board => board.id !== id);
+  boards = boards.filter(b => b.id !== id);
 };
 
 module.exports = { getAll, getById, create, removeById, editById };

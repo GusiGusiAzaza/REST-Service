@@ -1,0 +1,877 @@
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/89277845-1bc5-4f0e-99de-de470e919667/tasks/319c1c90-612b-4541-979c-9a8530e82693',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:11:39.050'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/25de1a9e-020a-4a9b-8c98-1b6e58c2dd56',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:11:39.058'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/93e2f547-8560-40f1-85f8-dc07522fb73b/tasks/0773802d-e021-4101-a22a-56113d301e07',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:11:39.082'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/93e2f547-8560-40f1-85f8-dc07522fb73b/tasks/ebe8dcc2-9a78-4c2a-8506-9adadcd2585c',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:11:39.083'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/93e2f547-8560-40f1-85f8-dc07522fb73b/tasks/8074b787-e829-4191-b07f-0a4f681c610c',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:11:39.084'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/93e2f547-8560-40f1-85f8-dc07522fb73b/tasks/8b72cb2c-9e29-45ac-93b0-ce294693ba72',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:11:39.085'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/93e2f547-8560-40f1-85f8-dc07522fb73b/tasks/0defc8bc-f701-4f1a-a287-ae3db2bc262e',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:11:39.086'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/f169803b-977b-4db6-a839-3cad89bfe051/tasks/dcfd7d16-0e83-4bd0-a2fd-5eb14c471c4f',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:12:48.093'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/f1ee45c2-0c05-4848-95a5-03cdb23be2d9/tasks/c772a5db-31a7-440f-bec8-1bc9c50d9bfa',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:12:48.100'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/501041ad-fb47-4661-add4-632f2a64675b',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:12:48.118'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/5e26487d-dadd-49fc-89a2-7f65fe0ea954/tasks/e11e1bb7-b05d-456b-9511-cb9939fe3cc0',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:12:48.137'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/5e26487d-dadd-49fc-89a2-7f65fe0ea954/tasks/5125838d-957c-48bc-a271-2dee22a11cd3',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:12:48.138'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/5e26487d-dadd-49fc-89a2-7f65fe0ea954/tasks/71072e2c-e873-4120-80ee-265e50afe3ac',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:12:48.139'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/5e26487d-dadd-49fc-89a2-7f65fe0ea954/tasks/9dd950a1-5150-4910-98d0-c1dc9e45e808',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:12:48.140'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/5e26487d-dadd-49fc-89a2-7f65fe0ea954/tasks/54b0fbdf-f2b7-4ad0-8684-2c4ab2930881',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:12:48.141'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/6dfa5382-d501-423f-b0c4-7af6517126d8/tasks/c3368f56-b8e8-4427-a3d0-1bca08a429b8',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:13.982'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/a5fc5ec5-b32d-408b-a04a-8dd10a429c16',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:13.983'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/7d5df2da-769d-4e7d-b643-bd63d5460585/tasks/9c986c6c-b47d-4035-b23b-1d562ee21a17',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:14.008'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/7d5df2da-769d-4e7d-b643-bd63d5460585/tasks/3d8f233e-8edd-4073-a687-9e3a281a38ef',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:14.009'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/7d5df2da-769d-4e7d-b643-bd63d5460585/tasks/0ea4e732-612b-4f9f-8bc8-0ba5da8addf8',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:14.012'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/7d5df2da-769d-4e7d-b643-bd63d5460585/tasks/7a53ba07-4b34-4618-a571-3cc3113a31fb',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:14.013'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/7d5df2da-769d-4e7d-b643-bd63d5460585/tasks/7ae9bfd0-e8c7-48f6-8b4f-bedf92eacb3c',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:14.014'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/56a86b62-911c-4946-858a-74ff6f2a1d34/tasks/719610b7-fd00-47cf-80ec-00340922b75d',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:57.461'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/c8100cd7-4d7f-4577-b612-41220972004d',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:57.465'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/2ac772ed-cae1-494b-b3cc-0a41aa028b13/tasks/74dba2e3-d718-4ed7-b1aa-9670717eb451',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:57.488'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/2ac772ed-cae1-494b-b3cc-0a41aa028b13/tasks/4319bff1-43f6-460f-a5e2-f5ec6822ef1a',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:57.489'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/2ac772ed-cae1-494b-b3cc-0a41aa028b13/tasks/36c9a2e9-7765-461d-8a1a-40c194f926dd',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:57.490'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/2ac772ed-cae1-494b-b3cc-0a41aa028b13/tasks/39511450-73bf-4ee6-a48d-b670fb9680ce',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:57.491'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/2ac772ed-cae1-494b-b3cc-0a41aa028b13/tasks/18218735-65d1-47ac-b26a-6035b4890e68',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:13:57.492'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::4000
+      at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+      at listenInCluster (net.js:1361:12)
+      at Server.listen (net.js:1447:7)
+      at Function.listen (C:\main\RS node\REST_Service\node_modules\express\lib\application.js:618:24)
+      at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:4:5)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 4000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::4000\n' +
+    'Error: listen EADDRINUSE: address already in use :::4000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1313:16)\n' +
+    '    at listenInCluster (net.js:1361:12)\n' +
+    '    at Server.listen (net.js:1447:7)\n' +
+    '    at Function.listen (C:\\main\\RS node\\REST_Service\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:4:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::4000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1313:16)\n' +
+    '    at listenInCluster (net.js:1361:12)\n' +
+    '    at Server.listen (net.js:1447:7)\n' +
+    '    at Function.listen (C:\\main\\RS node\\REST_Service\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\main\\RS node\\REST_Service\\src\\server.js:4:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)',
+  exception: true,
+  date: 'Sun Oct 25 2020 18:14:46 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 1436,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\main\\RS node\\REST_Service',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.4',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\main\\RS node\\REST_Service\\src\\server.js'
+    ],
+    memoryUsage: {
+      rss: 43077632,
+      heapTotal: 20008960,
+      heapUsed: 13827000,
+      external: 1405245,
+      arrayBuffers: 47844
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 242129 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1313,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1361,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1447,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\main\\RS node\\REST_Service\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\main\\RS node\\REST_Service\\src\\server.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 71,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  timestamp: '2020-10-25 18:14:46.335'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'listen EADDRINUSE: address already in use :::4000',
+    stack: Error: listen EADDRINUSE: address already in use :::4000
+        at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+        at listenInCluster (net.js:1361:12)
+        at Server.listen (net.js:1447:7)
+        at Function.listen (C:\main\RS node\REST_Service\node_modules\express\lib\application.js:618:24)
+        at Object.<anonymous> (C:\main\RS node\REST_Service\src\server.js:4:5)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12) {
+      code: 'EADDRINUSE',
+      errno: 'EADDRINUSE',
+      syscall: 'listen',
+      address: '::',
+      port: 4000
+    }
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:14:46.336'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/3ed050b3-84f6-40e3-9e2a-ddb264ccbdf9',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:15:20.319'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/aea4cceb-efea-4695-929d-efed96fcaa7d/tasks/0eed3b2f-85a4-4fc3-9d6f-1b31b6571f6a',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:15:20.325'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/646674d7-8c59-434b-a89f-e44bd86f2540/tasks/b6eaa5e7-5e37-4e72-8b7d-15fa5de824cd',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:15:20.344'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/646674d7-8c59-434b-a89f-e44bd86f2540/tasks/71d1add2-2e86-444c-81cf-135a1eb3688c',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:15:20.345'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/646674d7-8c59-434b-a89f-e44bd86f2540/tasks/2d7f51c3-5b9b-458e-b8a0-1c293a7f3d70',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:15:20.346'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/646674d7-8c59-434b-a89f-e44bd86f2540/tasks/affa3ca7-6439-47fe-a7a7-79c4c073afcb',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:15:20.347'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/646674d7-8c59-434b-a89f-e44bd86f2540/tasks/92b26143-8dbc-42bc-b6e5-026c1199d7ec',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:15:20.348'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/f91695af-fe40-4123-ba7d-0340677caf24/tasks/b1cc8abe-45b7-4c5b-aeec-3befcb6ec5c5',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:11.437'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/f43fd27e-e860-4069-b6f4-3fe625681869',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:11.441'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4f05343e-1869-4f58-b1b2-d9298594256a/tasks/c590af0e-7dc1-42dc-9bc6-9e84a2a9413c',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:11.463'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4f05343e-1869-4f58-b1b2-d9298594256a/tasks/16c18fc1-1008-4cf3-8de3-e332f2641338',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:11.464'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4f05343e-1869-4f58-b1b2-d9298594256a/tasks/7d469eb4-6174-4ed2-b79e-3b3b0a7ab9ea',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:11.465'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4f05343e-1869-4f58-b1b2-d9298594256a/tasks/4764f742-19da-447b-8263-fae7f3e4b298',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:11.466'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4f05343e-1869-4f58-b1b2-d9298594256a/tasks/1c7fca5d-2a2b-4d83-bbaf-6264e2f8dcf2',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:11.467'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/b1262e06-8467-4282-9336-00b1ece4139f/tasks/f5f8c68f-5753-4e06-bf11-2a211a553d31',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:24.652'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/d9944cd4-d3ec-445c-9f9e-0e7404a6e3f6',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:24.657'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/e6de14af-48a1-4cda-bec1-3ff924b3188e/tasks/5ebb4a28-6b66-4d48-abba-dcf5dfb7ecf7',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:24.676'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/e6de14af-48a1-4cda-bec1-3ff924b3188e/tasks/cbadf7f4-257a-42da-a105-bee14df8f971',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:24.677'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/e6de14af-48a1-4cda-bec1-3ff924b3188e/tasks/798f604a-cbb5-48a4-a049-4f85bde3a700',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:24.678'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/e6de14af-48a1-4cda-bec1-3ff924b3188e/tasks/441e78dd-d35e-4346-af3b-2aacdeb20c1d',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:24.679'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/e6de14af-48a1-4cda-bec1-3ff924b3188e/tasks/b27ac715-c67e-484a-8d99-51af355e0e20',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:24.680'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/4026686e-17e8-4821-b161-f9319af25d9d',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:36.061'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/8a2674b4-4eb4-4345-abfd-32958909ff90/tasks/82be6294-c078-498c-bc43-d51ba53325d3',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:36.063'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/922dd2b9-c88b-4069-8cf6-7874423c3370/tasks/ef9cccc8-4faf-47ea-95b5-988fabaa0611',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:36.086'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/922dd2b9-c88b-4069-8cf6-7874423c3370/tasks/0147d5f0-9248-4781-a605-cbd4e833c365',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:36.087'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/922dd2b9-c88b-4069-8cf6-7874423c3370/tasks/f92ac05b-ed34-4f3c-a728-9a010b4839d5',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:36.088'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/922dd2b9-c88b-4069-8cf6-7874423c3370/tasks/b143f53d-4664-4b28-a633-10a3a6555df5',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:36.089'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/922dd2b9-c88b-4069-8cf6-7874423c3370/tasks/f1573739-eb5a-4bda-9723-19927672dc29',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:16:36.089'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/f5192ada-2f47-4d05-983e-8f705a2fa18b',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:17:05.097'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/71328acf-a854-4e08-beeb-87a15154b9e3/tasks/9d68fc62-8a99-4b52-af17-cbdfe247772b',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:17:05.102'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/992cd371-82dd-4ff4-a1af-1c68d754979f/tasks/5f554a43-efab-4e12-a910-958f7fbda301',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:17:05.124'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/992cd371-82dd-4ff4-a1af-1c68d754979f/tasks/f49728dd-35d9-4bae-a559-3ea7abb490b7',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:17:05.125'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/992cd371-82dd-4ff4-a1af-1c68d754979f/tasks/9c9ac200-b194-4246-8af9-43c265d332c1',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:17:05.126'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/992cd371-82dd-4ff4-a1af-1c68d754979f/tasks/e2727b0b-1fb8-4058-8f97-60efa257a8eb',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:17:05.127'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/boards/992cd371-82dd-4ff4-a1af-1c68d754979f/tasks/64b91fc6-3f01-45a9-ad15-ff5f2033f1d1',
+    method: 'GET',
+    status: 404
+  },
+  level: 'error',
+  timestamp: '2020-10-25 18:17:05.128'
+}

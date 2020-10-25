@@ -7,7 +7,7 @@ let users = [];
 const getAll = async () => users;
 
 const getById = async id => {
-  const user = users.find(user => user.id === id);
+  const user = users.find(u => u.id === id);
   if (user) return user;
 
   throw new ResponseError(status.NOT_FOUND);
@@ -23,13 +23,13 @@ const create = async data => {
 const editById = async (id, data) => {
   const user = await getById(id);
   const newData = { user, ...data };
-  users = users.map(user => (user.id === id ? newData : user));
+  users = users.map(u => (u.id === id ? newData : u));
 
   return newData;
 };
 
 const removeById = async id => {
-  users = users.filter(user => user.id !== id);
+  users = users.filter(u => u.id !== id);
 };
 
 module.exports = { getAll, getById, create, removeById, editById };

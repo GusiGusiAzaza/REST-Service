@@ -8,7 +8,7 @@ const getByBoardId = async boardId =>
   tasks.filter(task => task.boardId === boardId);
 
 const getByBoardIdAndId = async (boardId, id) => {
-  const task = tasks.find(task => task.id === id && task.boardId === boardId);
+  const task = tasks.find(t => t.id === id && t.boardId === boardId);
   if (task) return task;
 
   throw new ResponseError(NOT_FOUND);
@@ -24,8 +24,8 @@ const create = async (data, boardId) => {
 const editById = async (boardId, taskId, data) => {
   const task = await getByBoardIdAndId(boardId, taskId);
   const newData = { task, ...data };
-  tasks = tasks.map(task =>
-    task.id === taskId && task.boardId === boardId ? newData : task
+  tasks = tasks.map(t =>
+    t.id === taskId && t.boardId === boardId ? newData : t
   );
 
   return newData;
@@ -33,17 +33,15 @@ const editById = async (boardId, taskId, data) => {
 
 const removeById = async (boardId, id) => {
   await getByBoardIdAndId(boardId, id, true);
-  tasks = tasks.filter(task => task.id !== id);
+  tasks = tasks.filter(t => t.id !== id);
 };
 
 const editByUserId = async userId => {
-  tasks = tasks.map(task =>
-    task.userId === userId ? { ...task, userId: null } : task
-  );
+  tasks = tasks.map(t => (t.userId === userId ? { ...t, userId: null } : t));
 };
 
 const removeByBoardId = async boardId => {
-  tasks = tasks.filter(task => task.boardId !== boardId);
+  tasks = tasks.filter(t => t.boardId !== boardId);
 };
 
 module.exports = {
