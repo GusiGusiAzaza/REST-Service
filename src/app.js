@@ -7,6 +7,8 @@ const morgan = require('morgan');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
+const authRouter = require('./resources/auth/auth.router');
+const authVerification = require('./resources/auth/auth.verification');
 const { errorHandler } = require('./components/error-handler');
 const { logger } = require('./components/logger');
 
@@ -26,9 +28,11 @@ app.use('/', (req, res, next) => {
   next();
 });
 
+app.use(authVerification);
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
+app.use('/login', authRouter);
 app.use(errorHandler, logger);
 
 module.exports = app;
